@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens e Áudios</title>
+</head>
+<body>
+
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagesPMG/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagesPMG/media.png" type="image/png">
+        <img src="imagesPMG/grande.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/SnapInsta.io - Gosto Do Mal _ Novatroop _ Suguru Geto (Jujutsu Kaisen) (128 kbps).mp3" type="audio/mpeg">
+        <p>Infelizmente não abre no navegador</p>
+    </audio>
+
+
+
+
+    <!--
+    <audio src="midia/SnapInsta.io - Gosto Do Mal _ Novatroop _ Suguru Geto (Jujutsu Kaisen) (128 kbps).mp3" controls ></audio>
+     MP3 WAV OGG-->
+
+</body>
+</html>
